@@ -2,7 +2,19 @@
 
 Bot for the game of cluedo in golang
 
-# TODO
+## 2 Apps
+
+### CLI
+
+A CLI written in go
+
+### Mobile App
+
+Backend : serverless framework on AWS with lambda functions in go
+
+Frontend : mobile app in go with [goMobile](https://github.com/golang/go/wiki/Mobile)
+
+## TODO
 
 1. Nombre de joueurs
 
