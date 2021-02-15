@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"fmt"
+	"log"
 )
 
 // Game is the game function
 func Game() {
-	fmt.Println("test")
+	log.Println("Game starts")
 }

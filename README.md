@@ -2,6 +2,8 @@
 
 Bot for the game of cluedo in golang
 
+[rules](https://www.thesprucecrafts.com/how-to-play-clue-cluedo-411240)
+
 ## 2 Apps
 
 ### CLI
