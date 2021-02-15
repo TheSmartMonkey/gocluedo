@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"flag"
 
@@ -9,16 +10,25 @@ import (
 
 
 func main() {
-	log.Println("CLUDEO")
+	nbPlayers := getArgs()
+	initGame()
+	play(nbPlayers)
 	c.Game()
-	cli()
 }
 
-func cli() {
-	textPtr := flag.String("text", "", "Text to parse.")
-    metricPtr := flag.String("metric", "chars", "Metric {chars|words|lines};.")
-    uniquePtr := flag.Bool("unique", false, "Measure unique values of a metric.")
+func getArgs() int {
+	nbPlayers := flag.Int("n", 6, "number of players")
     flag.Parse()
 
-    log.Printf("textPtr: %s, metricPtr: %s, uniquePtr: %t\n", *textPtr, *metricPtr, *uniquePtr)
+    log.Println("Number of players: ", *nbPlayers)
+	return *nbPlayers
+}
+
+func initGame()  {
+	clueType := c.AskClueType()
+	fmt.Println(clueType)
+}
+
+func play(nbPlayers int) {
+	fmt.Println("text")
 }

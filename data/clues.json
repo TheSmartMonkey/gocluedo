@@ -1,0 +1,30 @@
+{
+    "persons": [
+        "Colonel MOUTARDE",
+        "Docteur OLIVE",
+        "Professeur VIOLET",
+        "Madame PERVENCHE",
+        "Mademoiselle ROSE",
+        "Madame LEBLANC"
+    ],
+    "weapons": [
+        "Poignard",
+        "Chandelier",
+        "Revolver",
+        "Corde",
+        "Matraque",
+        "Clef Anglaise"
+    ],
+    "places": [
+        "Cuisine",
+        "Patio",
+        "Spa",
+        "Salle à Manger",
+        "Piscine",
+        "Salle de projection",
+        "Salon",
+        "Chambre d'amis",
+        "Hall",
+        "Observatoire"
+    ]
+}
